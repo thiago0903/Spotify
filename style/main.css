@@ -23,9 +23,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 4px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.logo i {
+    margin-right: 5px;
 }
 .item{
     justify-content: center;
@@ -34,7 +36,9 @@ body{
 }
 .item a{
     color: #fff;
-    margin-left:8px;
+    margin-left: 18px;
+    text-decoration: none;
+    font-size: 18px;
 }
 .green{
     background-color: #9bf0e1;
@@ -92,8 +96,12 @@ body{
     border-radius: 500px;
     height: auto;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 18px;
     padding: 17px 48px;
+}
+.ofer button:hover{
+    background: #fff;
+    color: #000;;
 }
 .terms{
     margin: 45px 0;
@@ -131,6 +139,10 @@ body{
     margin-top: 12px;
     padding: 17px 48px;
 }
+.album-free button:hover{
+    background: #616467;
+    color: #fff;
+}
 .bann img{
     width: 250px;
     height: auto;
@@ -142,4 +154,85 @@ footer{
     background: black;
     height: 500px;
     margin-top: 20px;
+    text-decoration: none;
+}
+.logo2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.logo2 i{
+    margin-top: 90px;
+    margin-left: -764px;
+}
+.logo2 p{
+    margin-top: 86px;
+    font-size: 20px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: -36px;
+}
+.rodape p,.bg{
+    flex-direction: column;
+    display: flex;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 94px;
+    color: #fff;
+}
+.rodape p{
+    color: #a2a2a2;
+    font-size: 12px;
+}
+.col-1{
+    color: #918d8d;
+    border: 2px solid #222326;
+    border-radius: 50%;
+    width: 40px;
+    background: #222326;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 8px;
+    justify-content: center;
+}
+.col-1 i{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+}
+
+.end{
+    flex-direction: row;
+    align-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.end a{
+    text-decoration: none;
+    color: #a2a2a2;
+    margin-top: 120px;
+    margin-right: 25px;
+}
+.local{
+    display: flex;
+    color: #a2a2a2;
+    font-size: 11px;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 225px;
+    margin-top: -16px;
+}
+.local p{
+    margin: 5px;
+}
+.local i{
+    font-size: 15px;
+    margin: 3px;
 }
