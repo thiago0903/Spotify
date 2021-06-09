@@ -1,0 +1,145 @@
+:root{
+    color:(#2D46B9);
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f4f4f4;
+}
+.container-fluid{
+    justify-content: space-around;
+    position: fixed;
+    display: flex;
+   background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100px;
+    color:#fff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.item a{
+    color: #fff;
+    margin-left:8px;
+}
+.green{
+    background-color: #9bf0e1;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.green .container{
+    padding-top: 120px;
+    font-weight: 500;
+    margin-left: 406px;
+    display: inline-block;
+}
+#spot {
+    color: #2D46B9;
+    font-family: spotify-circular,Circular,Helvetica,Arial,sans-serif;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.green h1 {
+    font-size: 59px;
+    display: block;
+    width: 49vh;
+    color: #2D46B9;
+}
+.sub{
+    display: block;
+    width: 58vh;
+    text-align: justify;
+    color: #2D46B9;
+    margin-top: 17px;
+    font-family: inherit;
+    font-size: 11px;
+    margin-right: 50px;
+}
+
+.cancel{
+    text-align: justify;
+    color: #2D46B9;
+    font-family: inherit;
+    font-size: 11px;
+    margin-bottom: 90px;
+}
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 85px;
+}
+.ofer button{
+    border: 1px solid transparent;
+    background: #2D46B9;
+    color:#fff;
+    box-sizing: border-box;
+    border-radius: 500px;
+    height: auto;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 17px 48px;
+}
+.terms{
+    margin: 45px 0;
+    width: 69vh;
+    color: #2D46B9;
+}
+.terms a{
+    color: #2D46B9;
+}
+/*MEIO PAG*/
+.album-free{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.album-free h2 {
+    font-size: 50px;
+    line-height:70px
+}
+.album-free p{
+    font-size: 17px;
+    line-height: 40px;
+}
+.album-free button{
+    border: 2px solid #616467;
+    color: #616467;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 500px;
+    height: auto;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 17px 48px;
+}
+.bann img{
+    width: 250px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+footer{
+    background: black;
+    height: 500px;
+    margin-top: 20px;
+}
